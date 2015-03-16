@@ -76,9 +76,10 @@ class JWTListener implements ListenerInterface
                 throw $failed;
             }
 
-            $response = new Response();
-            $response->setStatusCode(401);
-            $event->setResponse($response);
+            $this->securityContext->setToken(null);
+            //$response = new Response();
+            //$response->setStatusCode(401);
+            //$event->setResponse($response);
         }
     }
 

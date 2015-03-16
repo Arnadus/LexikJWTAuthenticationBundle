@@ -21,6 +21,12 @@
         {
             "name": "Dev Lexik",
             "email": "dev@lexik.fr"
+        },
+        {
+            "name": "Arnaud De Backer"
+        },
+        {
+            "name": "Axel Bodart"
         }
     ],
     "require": {
